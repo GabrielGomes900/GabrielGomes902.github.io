@@ -23,8 +23,9 @@ UL LI{linear-style-type:square}
 #test1 {background-color:white; position:absolute; top:0; right:0; left:0; height:200}
 #test2{ background-color:red; position:absolute; top:25; right:0; left:325; width:70; height:50; border-bottom:10px}
 #test3 {background-color:transparent; position:absolute; top:150; right:0; left:0; height:200}
+#test4 {background-color:transparent; top:0; right:0; left:0; height:100}
 #description{position:absolute; width:300; top:450; right:0; left:30}
-#test4{position:absolute;left:0;right:0;top:900;}
+#b{position:absolute;left:85%;right:0;top:30px; font-family: font-family: Roboto Light, sans-serif}
 #direito{position:absolute;left:30;top:220}
 
 a:link { color: black;} a:hover { color: red; text-decoration:none;-webkit-tap-highlight-color: rgba(0,0,0,0) } a:active { color: red; } a:visited {color: black;}
@@ -33,12 +34,75 @@ a.post-header-link{text-decoration:none;-webkit-tap-highlight-color: rgba(0,0,0,
 .post-description-size{font-size:30px;margin-left:60px; margin-top:140px; width:88%; font-family: font-family: Roboto Light,sans-serif; color:#494949}
 .post-meta-description-size{font-size:30px;margin-left:60px; margin-top:50px; width:78%; font-family: font-family: Roboto Light,sans-serif; color:#292929}
 .youtube-title{font-size:40px; margin-left:60px;magin-top:50px; font-family: Roboto Light,sans-serif; color:#414141}
+.image-title{font-size40px; margin-left:60px; margin-top:50px; font-family: font-family: Roboto Light, sans-serif; color:#313131}
+.image-size{width:88%; height:400px; margin-left:60px; margin-top:10px; margin-bottom:50px; border:10px; hspace:40px; vspace:40px}
+.li-style{margin-left:80px;margin:0px;position:absolute;list-style-type:circle; position:absolute}
+ol {
+  list-style-type: circle;
+  margin-left: 60px;
+  
+}
+
+.btn{
+width:120px;
+height:70px;
+font-size:19px;
+color: white;
+    background: #FF0000;
+	border-color: transparent;
+} .btn:focus{
+    background: FFFFFF;
+	border-color: #FF0000;
+}
+.btn2{
+width:100%;
+height:100px;
+font-size:30px;
+color: 494949;
+text-align: left;
+padding-left:40px;
+    background: #FFFFFF;
+	border:0;
+	border-color: FF0000;
+} .btn:focus{
+    background: FFFFFF;
+	border-color: transparent;
+}
+.button {
+    width: 100px;
+    height: 100px;
+	font-size:60px;
+	color: white;
+    background-color: #FF0000;
+    border: solid 1px #FF0000;
+    border-radius: 50%;
+	outline: none;
+}
+
 </style> 
 	
 	  <img src="https://www.mojang.com/assets/mojang-logo-b5980396e697fa0256589e67b6f8dbcb7caabc6dc8ef439ddff8c89667fd3c37.svg" width="372" height="58" alt="Mojang" hspace="50" vspace="50">
+	<button id="b" class="button">☰</button>
 	
-	<div id="test3"> 
+	<div id="test3">
+
 	  <hr color="red"> 
+	  <p id="time"></p>
+	
+	  <button id="home" class="btn2"><a href="192.168.0.5:8099/#m">Casa</a></button>
+	  <button id="sobre" class="btn2">Sobre</button>
+	  <button id="jogos" class="btn2">Jogos</button>
+	  <button id="conta" class="btn2">Conta</button>
+	  <button id="socorro" class="btn2">Socorro</button>
+	  <script type="text/javascript">
+	  document.getElementById("home").style.display="none";
+	  document.getElementById("sobre").style.display="none";
+	  document.getElementById("jogos").style.display="none";
+	  document.getElementById("conta").style.display="none";
+	  document.getElementById("socorro").style.display="none";
+	  document.getElementById("divisor").style.display="block";
+</script>
+	  
 	  <a href="/2016/12/shouldnt-you-be-on-minecraftnet-right-now/"> <img src="https://media.mojang.com/blog-image/2c34ca1217c7d95e76a6f8d646adf9208f78145a/blogmcnet.png" width="100%" height="400"> </a> 
 	  <a class="post-header-link" href="https://mojang.com/2016/12/shouldnt-you-be-on-minecraftnet-right-now/"> 
 		  <p class="post-title-size">
@@ -70,10 +134,122 @@ a.post-header-link{text-decoration:none;-webkit-tap-highlight-color: rgba(0,0,0,
 		<p class="post-meta-description-size">Ah, Friday. For many, this signals the start of two free days to kick back and play their favorite games. To help you out with that, we’ve put some new maps on Minecraft Realms for PC, and have brought back some old favorites as well. Whether you’d like to quietly admire new builds by yourself, or frenetically compete with a group of friends, we’ve got something for everyone!</p>
 		<p class="youtube-title">Hot Potato by Team Cryus
 		  <iframe margin-left="10px" width="90%" height="400px" src="https://www.youtube-nocookie.com/embed/Tpr-pzxPyso" frameborder="0" allowfullscreen="" kwframeid="1"></iframe></p>
+		<p class="post-meta-description-size">Reúna seus amigos e pegue uma batata! Hot Potato é o tipo de esporte em que você não quer ficar segurando a bola. Mantenha os olhos abertos para qualquer agitador que apresse-o com força e, se você for atingido, esmague o mouse até passar para outra pessoa. Esses tubérculos estão explodindo, então jogue-os antes que eles detonem!</p>
+		<p class="image-title">Vaslen por Excessed</p>
+		<img class="image-size" src="https://media.mojang.com/blog-image/4a9b948c5eec2a6a3f96401e779092f37883808c/2016-12-01_14.47.33.png">
+		<p class="post-meta-description-size">If you’d like to start a new survival game, but don’t want to stress over building up your farms, fire up this world template. In Vaslen, you’ll find a green mesa and five cozy shacks. Just be careful, this map starts at night!</p>
+		<p class="image-title">Fort Craft by goCreative</p>
+		<img class="image-size" src="https://media.mojang.com/blog-image/41221ba1783bf436ba095f3215cf99f120166768/2016-12-01_12.20.22.png">
+		<p class="post-meta-description-size">Zombies gather to attack, beginning their approach to your fort. The narrow canyon walls make it difficult for the creatures to move in groups, and from your perch in the guard tower, you line up the perfect shot. With a quiver of arrows and a bit of luck, the sun will be up before the monsters reach you.</p>
+		<p class="image-title">Other additions</p>
+		<p class="post-meta-description-size">We have another round of 1.11 compatibility updates for you! If you haven’t played these before, give them a try. This week, the following maps make their return to Realms:</p>
+		<ol><li class="li-style; margin-top:100px"><a href="https://www.youtube.com/watch?v=Q9pG-7ohljw">Valley of Kings</a></li>
+		  <li class="li-style; margin-top:100px">Trick or Treat</li>
+		  <li class="li-style; margin-top:100px">Sunburn Phoenix</li>
+		  <li class="li-style; margin-top:100px"><a href="https://www.youtube.com/watch?v=aqxAcekj5cw">Makers Wars</a></li>
+		</ol>
+		<p class="post-meta-description-size">Também temos uma menção especial, para quem não recebeu a <a href="http://www.mojang.com/2016/11/share-your-real-life-minecraft-moments/">postagem do blog Light Your Way Home</a> . O mapa, apropriadamente intitulado Light Your Way Home, faz parte da campanha #MinecraftIRL, projetada para embaçar as linhas entre o mundo real e o mundo criado. Você pode pegar este mapa em Reinos, na categoria Mapa de Aventura.</p>
+		<p class="image-title">O inverno está… a caminho</p>
+		<img class="image-size" src="https://media.mojang.com/blog-image/0fbd2a45c1b6b65908659bd353b68f2a84465689/2016-11-27_18.08.12.png">
+		<p class="post-meta-description-size">Nossa próxima atualização de conteúdo dos Reinos, com tema apropriado para o inverno e / ou feriado, será em 16 de dezembro! Certifique-se de fazer check-in nesse dia para outra postagem no blog cheia de todos os detalhes.</p>
+		<p class="post-meta-description-size">Se você está curioso para saber como criar suas próprias criações no Minecraft Realms, consulte nossas diretrizes atualizadas em <a href="https://www.reddit.com/r/realms/comments/5flvue/must_read_so_you_want_to_submit_your_map_to">/ r / Realms</a>.</p>
+		<p class="post-meta-description-size">É tudo por agora! Vejo você na próxima vez!</p>
+		<p class="post-meta-description-size">Marc - <a href="https://twitter.com/marc_IRL">@Marc_IRL</a></p>
+		<hr color="red">
+		  
+		<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/ptVorcjr9qU" frameborder="0"></iframe>
+		<a class="post-header-link" href="https://www.mojang.com/2016/12/pocket-edition-is-5-years-old-have-a-trailer-for-10/"><p class="post-title-size">POCKET EDITION IS 5 YEARS OLD! HAVE A TRAILER FOR 1.0!</p>
+		</a>
 		</face>
-		 
-	  
+	
 	</div> 
-		
+	
+	<script type="text/javascript">
+	  var click = true;
+	  var showing = true;
+	  var rotate = false;
+	  
+    document.getElementById("b").onclick = function () {
+	//document.getElementById("b").style.backgroundColor = "#ffcc00";
+	if(showing==true){
+	showing=false;
+	if(click==true){
+	document.getElementById("b").style.backgroundColor = "dd0000";
+	document.getElementById("b").style.borderColor = "dd0000";
+	document.getElementById("b").style.width="102px";
+	document.getElementById("b").style.height="102px";
+	document.getElementById("b").style.fontSize="68px";
+	
+    
+	click = false;
+	
+  /*
+	var timeLeft = 30;
+    var elem = document.getElementById('time');
+    
+    var timerId = setInterval(countdown, 1000);
+    
+    function countdown() {
+      if (timeLeft == 0) {
+        clearTimeout(timerId);
+        doSomething();
+      } else {
+        //elem.innerHTML = timeLeft + ' seconds remaining';
+		//document.getElementById("divisor").style.height=timeLeft+"px";
+        timeLeft--;
+      }
+    }
+	setTimeout(function(){
+	},10);*/
+	
+	//document.getElementById("divisor").style.width="100%";
+
+	setTimeout(function(){
+	document.getElementById("socorro").style.display="block";
+	setTimeout(function(){
+	document.getElementById("conta").style.display="block";
+	setTimeout(function(){
+	document.getElementById("jogos").style.display="block";
+	setTimeout(function(){
+	document.getElementById("sobre").style.display="block";
+	setTimeout(function(){
+	document.getElementById("home").style.display="block";
+	showing=true;
+	},100);
+	},100);
+	},100);
+	},100);
+	},100);
+	
+	}else{
+	document.getElementById("b").style.backgroundColor = "";
+	document.getElementById("b").style.borderColor = "";
+	document.getElementById("b").style.width="100px";
+	document.getElementById("b").style.height="100px";
+	document.getElementById("b").style.fontSize="60px";
+	click = true;
+
+	setTimeout(function(){
+	document.getElementById("home").style.display="none";
+	setTimeout(function(){
+	document.getElementById("sobre").style.display="none";
+	setTimeout(function(){
+	document.getElementById("jogos").style.display="none";
+	setTimeout(function(){
+	document.getElementById("conta").style.display="none";
+	setTimeout(function(){
+	document.getElementById("socorro").style.display="none";
+	showing=true;
+	},100);
+	},100);
+	},100);
+	},100);
+	},100);
+	}};};
+
+	</script>
+	  
   </body>
+
+
 </html>

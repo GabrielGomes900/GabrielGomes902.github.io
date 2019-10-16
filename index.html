@@ -1,0 +1,573 @@
+<html lang="en">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>
+<script>
+    var sound = new Howl({
+      src: ['https://raw.githubusercontent.com/GabrielGomes900/GabrielGomes900.github.io/master/mojang_audio.mp3'],
+      volume: 0.5,
+      onend: function () {
+      }
+    });
+    sound.play();
+</script>
+  <head lang="en">
+	
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#ff0000"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="#ff0000">
+	<meta itemprop ="name"content="https://github.com/sindresorhus/screenfull.js/blob/master/src/screenfull.js" >
+	
+	<link rel="icon" type="image/png" href="https://github.com/GabrielGomes900/GabrielGomes900.github.io/blob/master/mojang.png"/>
+	<link rel="shortcut icon" type="image/png" href="https://github.com/GabrielGomes900/GabrielGomes900.github.io/blob/master/mojang.png"/>
+	  <title>Mojang</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  </head> 
+
+  <script type="text/javascript">
+	//window.history.go(-1);
+
+	document.getElementById("sobreposição").className="";
+	
+	</script>
+  <body id="mybody" style="overflow: hidden;   -webkit-overflow-scrolling: touch;location:no">
+	
+<style>
+  $("html, body, #wrapper").css({
+    height: $(window).height()
+});
+  body{font-family:Raleway,sans-serif;font-size:40px;}
+//@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
+selector:fullscreen {
+  display: block;
+}
+
+selector {
+  display: none; // hides the element when not in fullscreen mode
+}
+h1{text-decoration:none;color:black: important;font-size:24; font-weight:bold; font-family:sans-serif: important;}
+@media print
+{Body {font-size:10pt}}
+@media screen
+{Body {font-size:12sp}}
+@media screen,print
+{Body {line-height:1.2}}
+@media all
+{Body {font-size:1sp}}
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 300; src: local('Open Sans Light'), local('OpenSans-Light'), url(fonts/opensans-light.woff2) format('woff2'); }
+OL LI{linear-style-type:decimal}
+UL LI{linear-style-type:square}
+.post-description{font-family:Roboto, sans-serif; font-size:24px; color:black}
+.lef{ margin-left:60px}
+#test1 {background-color:white; position:absolute; top:0; right:0; left:0; height:200}
+#test2{ background-color:red; position:absolute; top:25; right:0; left:325; width:70; height:50; border-bottom:10px}
+#test3 {background-color:transparent; position:absolute; top:150; right:0; left:0; height:200}
+#test4 {background-color:transparent; top:0; right:0; left:0; height:100}
+#description{position:absolute; width:300; top:450; right:0; left:30}
+#b{position:absolute;left:85%;right:0;top:30px; font-family: font-family: Roboto Light, sans-serif}
+#direito{position:absolute;left:30;top:220}
+#d{position:absolute; width:372; height:58}
+#centralize{align:center;hspace:50px;vspace:50px; margin:40px}
+a:link { color: black;} a:hover { color: red; text-decoration:none;-webkit-tap-highlight-color: rgba(0,0,0,0) } a:active { color: red; } a:visited {color: black;}
+a.post-header-link{text-decoration:none;-webkit-tap-highlight-color: rgba(0,0,0,0)}
+.post-title-size{font-size:50px; margin-left:60px; width:88%; height:10}
+.post-description-size{font-size:30px;margin-left:60px; margin-top:140px; width:88%; font-family: font-family: Roboto Light,sans-serif; color:#494949}
+.post-meta-description-size{font-size:30px;margin-left:60px; margin-top:50px; width:78%; font-family: font-family: Roboto Light,sans-serif; color:#292929}
+.youtube-title{font-size:40px; margin-left:60px;magin-top:50px; font-family: Roboto Light,sans-serif; color:#414141}
+.image-title{font-size40px; margin-left:60px; margin-top:50px; font-family: font-family: Roboto Light, sans-serif; color:#313131}
+.image-size{width:88%; height:400px; margin-left:60px; margin-top:10px; margin-bottom:50px; border:10px; hspace:40px; vspace:40px}
+.li-style{margin-left:80px;margin:0px;position:absolute;list-style-type:circle; position:absolute}
+.h2{font-family:Delighter;}
+
+ol {
+  list-style-type: circle;
+  margin-left: 60px;
+  
+}
+.btn{
+width:120px;
+height:70px;
+font-size:19px;
+color: white;
+    background: #FF0000;
+	border-color: transparent;
+} .btn:focus{
+    background: FFFFFF;
+	border-color: #FF0000;
+}
+
+.btn2{
+width:100%;
+height:100px;
+font-size:30px;
+font-family: Monospace;
+font-style: italic;
+color: 494949;
+text-align: left;
+padding-left:40px;
+    background: #FFFFFF;
+	border:0;
+	border-color: FF0000;
+	border-radius: 0%;
+	outline: none;
+} .btn:focus{
+    background: FFFFFF;
+	border-color: transparent;
+}
+.button {
+    width: 100px;
+    height: 100px;
+	font-size:60px;
+	color: white;
+    background-color: #FF0000;
+    border: solid 1px #FF0000;
+    border-radius: 50%;
+	outline: none;
+}
+.below {
+display: flex;
+flex-direction: column;
+}
+.splash{
+
+width:100.3%;
+height:110%;
+background:transparent;
+position:absolute;
+z-index:999999999;
+margin-right:0;
+margin-left:-8;
+margin-top:-8;
+margin-bottom:0;
+}
+.read_more_button{
+font-size:40px;
+font-style:Monospace;
+color:grey;
+background-color:white;
+border:10;
+border-color:grey;
+margin:50px; 
+width:90%;
+height:100px;
+outline:none;
+}
+.other_post{
+font-size:40px;
+font-style:Monospace;
+color:grey;
+background-color:white;
+border:10;
+border-color:grey;
+margin:50px;
+float:right;
+height:100px;
+outline:none;
+}
+
+</style>
+	<div id="meu_splash" class="splash" style="background:red"></div>
+	  <img id="meu_image" class="splash" style="width:500px; height:250px;margin-top:500px; margin-left:250px" src="https://logodix.com/logo/2192695.png">
+		<script>
+		  
+		  setTimeout(function(){
+		  document.getElementById("meu_splash").style.display="none";
+		  document.getElementById("meu_image").style.display="none";
+		  document.getElementById("mybody").style.overflow="scroll";
+		  },4000);
+		  </script>
+		  
+	<!--<?xml version="1.0" standalone="no"?>
+	<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+	"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">-->
+	
+	
+	<!-- <img id="d" src="https://www.mojang.com/assets/mojang-logo-b5980396e697fa0256589e67b6f8dbcb7caabc6dc8ef439ddff8c89667fd3c37.svg" width="372" height="58" alt="Mojang" hspace="50" vspace="50">-->
+	
+	<svg id="centralize" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  width="371.914px" height="57.671px" viewBox="0 0 371.914 57.671" enable-background="new 0 0 371.914 57.671"
+	  xml:space="preserve">
+	  <g>
+		<g>
+		  <path fill="#DB1F29" d="M57.355,0.316h-11.93H16.519C7.396,0.316,0,7.713,0,16.834v35.281v5.556h0h6.366h34.47
+			c9.124,0,16.519-7.396,16.519-16.518V7.38L57.355,0.316L57.355,0.316z"/>
+		  <g>
+			<path fill="#FFFFFF" d="M13.772,48.104c-4.892,0-4.892-4.892-4.892-4.892s0-19.571,0-24.466c0-4.893,4.892-4.893,4.892-4.893
+			  s4.893,0,9.786,0c4.894,0,9.786,4.893,9.786,4.893s4.894,0,0,0c0-14.251,4.501,5.285,9.786,0
+			  c3.46-3.459,4.893,17.125,4.893,17.125l-4.893-2.444c0,0,0-4.894-7.339-9.786c-9.104-6.071-19.572-2.071-19.572,7.338
+			  c0,19.196,31.804,12.233,31.804,12.233s0,4.892-4.893,4.892C38.238,48.104,13.772,48.104,13.772,48.104z"/>
+			<path fill="#FFFFFF" d="M38.238,13.854c0-1.35,1.095-7.34,2.445-7.34c1.352,0,2.446,5.99,2.446,7.34
+			  c0,1.353-1.095,2.447-2.446,2.447C39.333,16.301,38.238,15.207,38.238,13.854z"/>
+		  </g>
+		</g>
+		<g>
+		  <g>
+			<polygon points="105.714,56.675 105.714,21.379 93.342,39.77 87.85,39.77 75.479,21.379 75.479,56.675 65.629,56.675
+			  65.629,0.996 73.528,0.996 90.637,26.182 107.747,0.996 115.492,0.996 115.492,56.675 			"/>
+		  </g>
+		  <g>
+			<path d="M149.727,57.671c-7.744,0-14.943-3.021-20.271-8.507c-5.375-5.545-8.333-12.763-8.333-20.325
+			  c0-7.57,2.959-14.788,8.333-20.325C134.783,3.101,142.169,0,149.727,0c7.636,0,14.858,3.02,20.337,8.502
+			  c5.384,5.549,8.343,12.767,8.343,20.336c0,7.562-2.958,14.781-8.332,20.325C164.663,54.652,157.439,57.671,149.727,57.671z
+			  M149.727,10.005c-4.919,0-9.567,1.979-13.088,5.574c-3.56,3.484-5.512,8.188-5.512,13.26c0,5.069,1.952,9.77,5.496,13.237
+			  c3.531,3.61,8.179,5.59,13.104,5.59c4.947,0,9.774-2.031,13.242-5.573c3.506-3.51,5.433-8.215,5.433-13.254
+			  c0-5.042-1.927-9.75-5.426-13.252C159.496,12.037,154.669,10.005,149.727,10.005z"/>
+		  </g>
+		  <g>
+			<path d="M180.215,56.675v-9.396h1.062c16.254,0,19.52-5.682,19.52-14.848V10.236h-20.582V1.071h30.432v31.36
+			  c0,16.993-8.783,24.243-29.369,24.243H180.215z"/>
+		  </g>
+		  <g>
+			<path d="M253.239,56.675l-5.128-13.543h-20.26l-5.204,13.543h-10.633l22.34-56.363h7.106l22.34,56.363H253.239z M244.477,33.744
+			  l-6.491-17.066l-6.491,17.066H244.477z"/>
+		  </g>
+		  <g>
+			<polygon points="301.564,56.675 277.327,21.607 277.327,56.675 267.474,56.675 267.474,0.996 275.062,0.996 299.529,36.372
+			  299.529,0.996 309.305,0.996 309.305,56.675 			"/>
+		  </g>
+		  <g>
+			<path d="M343.234,57.671c-7.744,0-14.943-3.021-20.271-8.506c-5.375-5.546-8.334-12.764-8.334-20.326
+			  c0-7.57,2.959-14.788,8.332-20.325C328.29,3.101,335.677,0,343.234,0c7.634,0,14.857,3.02,20.337,8.502
+			  c1.944,2.005,3.586,4.245,4.891,6.671l0.842,1.566h-11.782l-0.501-0.563c-0.175-0.201-0.351-0.402-0.539-0.591
+			  c-3.479-3.549-8.305-5.58-13.247-5.58c-4.919,0-9.567,1.979-13.089,5.574c-3.559,3.484-5.511,8.188-5.511,13.26
+			  c0,5.069,1.952,9.77,5.496,13.237c3.53,3.61,8.179,5.59,13.104,5.59c4.947,0,9.773-2.031,13.24-5.573
+			  c2.377-2.379,4.036-5.329,4.85-8.598h-20.991V23.49h31.095l0.14,0.899c0.229,1.469,0.347,2.965,0.347,4.45
+			  c0,7.562-2.959,14.78-8.331,20.325C358.17,54.652,350.946,57.671,343.234,57.671z"/>
+		  </g>
+		</g>
+	  </g>
+	</svg>
+	
+	<button id="b" class="button">☰</button>
+	
+	<div id="test3">
+	  <button id="home" class="btn2">Casa</button>
+	  <button id="sobre" class="btn2">Sobre</button>
+	  <button id="jogos" class="btn2">Jogos</button>
+	  <button id="conta" class="btn2">Conta</button>
+	  <button id="socorro" class="btn2">Socorro</button>
+	  
+	  <hr color="red" style="margin-top:100px;margin-bottom:100px"> 
+
+	  
+	  <script type="text/javascript">
+	  document.getElementById("home").style.height="0";
+	  document.getElementById("sobre").style.height="0";
+	  document.getElementById("jogos").style.height="0";
+	  document.getElementById("conta").style.height="0";
+	  document.getElementById("socorro").style.height="0";
+	  document.getElementById("home").style.color="transparent";
+	  document.getElementById("sobre").style.color="transparent";
+	  document.getElementById("jogos").style.color="transparent";
+	  document.getElementById("conta").style.color="transparent";
+	  document.getElementById("socorro").style.color="transparent";
+	  document.getElementById("divisor").style.display="block";
+	  
+	  document.getElementById("sobre").innerHTML = d;
+</script>
+	 	  <a href="/2016/12/shouldnt-you-be-on-minecraftnet-right-now/"> <img src="https://media.mojang.com/blog-image/2c34ca1217c7d95e76a6f8d646adf9208f78145a/blogmcnet.png" width="100.3%" height="400"> </a> 
+	  
+	  <a class="post-header-link" href="https://mojang.com/2016/12/shouldnt-you-be-on-minecraftnet-right-now/"> 
+		  <p class="post-title-size">
+			Você não deveria estar no Minecraft.net agora?</p></a>
+	<p class="post-description-size"> Posted on Dec 4, 2016 by Owen Jones </p>
+	  <face style="font-size:35px; margin-top:40; margin-left:0px; position:absolute">
+			  <p class="lef">Ei!</p> 
+			  <p class="lef">Este blog não é mais o local ideal para notícias oficiais do Minecraft!&nbsp;A partir de agora, publicaremos instantâneos, atualizações e muito mais no <a href="https://minecraft.net/"></a></p> 
+			  <a class="lef" href="https://minecraft.net/">Minecraft.net</a> 
+			  <p></p> 
+			  <a class="lef" href="https://minecraft.net/"></a> 
+			  <p class="lef" ><a href="https://minecraft.net/">Minecraft.net</a>! Marque como favorito!&nbsp;Faça da sua página inicial!</p> 
+			  <p class="lef" >Por que fizemos isso?&nbsp;Aprenda isso e muito mais no&nbsp; <a href="https://minecraft.net/"></a></p> 
+			  <a class="lef" href="https://minecraft.net/">Minecraft.net</a> 
+			  <a href="https://minecraft.net/"></a>!
+			  <p></p> 
+			  <p class="lef" >Nota: ainda usaremos este blog para qualquer notícia da Mojang que não seja relevante para o Minecraft.&nbsp;Não há muito disso agora, mas achei que valeria a pena mencionar.</p> 
+			  <p class="lef" >Obrigado!</p> 
+			  <p class="lef" >Owen - <a href="https://twitter.com/bopogamel">@bopogamel</a> and Marsh - <a href="https://twitter.com/MarshDavies">@marshdavies</a></p> 
+		
+		<hr color="red" style="margin-top:150px;margin-bottom:150px"> 
+		<img src="https://media.mojang.com/blog-image/c615ca91da33ad11a4d72780873f053775f60746/minecreaft-realms-header-2016-12-02.jpg" width="100.3%"> 
+		<a class="post-header-link" href="https://www.mojang.com/2016/12/fight-in-a-fort-or-toss-a-tuber/">
+		  <p class="post-title-size"> 
+				£ LUTE EM UM FORTE OU JOGUE UM TUBÉRCULO 
+			  </p></a>
+		<p class="post-description-size"> Posted on Dec 2, 2016 by Marc Watson</p>
+		<p> 
+		<p class="post-meta-description-size">Ah, Friday. For many, this signals the start of two free days to kick back and play their favorite games. To help you out with that, we’ve put some new maps on Minecraft Realms for PC, and have brought back some old favorites as well. Whether you’d like to quietly admire new builds by yourself, or frenetically compete with a group of friends, we’ve got something for everyone!</p>
+		<p class="youtube-title">Hot Potato by Team Cryus
+		  <iframe margin-left="10px" width="90%" height="400px" src="https://www.youtube-nocookie.com/embed/Tpr-pzxPyso" frameborder="0" allowfullscreen="" kwframeid="1"></iframe></p>
+		<p class="post-meta-description-size">Reúna seus amigos e pegue uma batata! Hot Potato é o tipo de esporte em que você não quer ficar segurando a bola. Mantenha os olhos abertos para qualquer agitador que apresse-o com força e, se você for atingido, esmague o mouse até passar para outra pessoa. Esses tubérculos estão explodindo, então jogue-os antes que eles detonem!</p>
+		<p class="image-title">Vaslen por Excessed</p>
+		<img class="image-size" src="https://media.mojang.com/blog-image/4a9b948c5eec2a6a3f96401e779092f37883808c/2016-12-01_14.47.33.png">
+		<p class="post-meta-description-size">If you’d like to start a new survival game, but don’t want to stress over building up your farms, fire up this world template. In Vaslen, you’ll find a green mesa and five cozy shacks. Just be careful, this map starts at night!</p>
+		<p class="image-title">Fort Craft by goCreative</p>
+		<img class="image-size" src="https://media.mojang.com/blog-image/41221ba1783bf436ba095f3215cf99f120166768/2016-12-01_12.20.22.png">
+		<p class="post-meta-description-size">Zombies gather to attack, beginning their approach to your fort. The narrow canyon walls make it difficult for the creatures to move in groups, and from your perch in the guard tower, you line up the perfect shot. With a quiver of arrows and a bit of luck, the sun will be up before the monsters reach you.</p>
+		<p class="image-title">Other additions</p>
+		<p class="post-meta-description-size">We have another round of 1.11 compatibility updates for you! If you haven’t played these before, give them a try. This week, the following maps make their return to Realms:</p>
+		<ol><li class="li-style; margin-top:100px"><a href="https://www.youtube.com/watch?v=Q9pG-7ohljw">Valley of Kings</a></li>
+		  <li class="li-style; margin-top:100px">Trick or Treat</li>
+		  <li class="li-style; margin-top:100px">Sunburn Phoenix</li>
+		  <li class="li-style; margin-top:100px"><a href="https://www.youtube.com/watch?v=aqxAcekj5cw">Makers Wars</a></li>
+		</ol>
+		<p class="post-meta-description-size">Também temos uma menção especial, para quem não recebeu a <a href="http://www.mojang.com/2016/11/share-your-real-life-minecraft-moments/">postagem do blog Light Your Way Home</a> . O mapa, apropriadamente intitulado Light Your Way Home, faz parte da campanha #MinecraftIRL, projetada para embaçar as linhas entre o mundo real e o mundo criado. Você pode pegar este mapa em Reinos, na categoria Mapa de Aventura.</p>
+		<p class="image-title">O inverno está… a caminho</p>
+		<img class="image-size" src="https://media.mojang.com/blog-image/0fbd2a45c1b6b65908659bd353b68f2a84465689/2016-11-27_18.08.12.png">
+		<p class="post-meta-description-size">Nossa próxima atualização de conteúdo dos Reinos, com tema apropriado para o inverno e / ou feriado, será em 16 de dezembro! Certifique-se de fazer check-in nesse dia para outra postagem no blog cheia de todos os detalhes.</p>
+		<p class="post-meta-description-size">Se você está curioso para saber como criar suas próprias criações no Minecraft Realms, consulte nossas diretrizes atualizadas em <a href="https://www.reddit.com/r/realms/comments/5flvue/must_read_so_you_want_to_submit_your_map_to">/ r / Realms</a>.</p>
+		<p class="post-meta-description-size">É tudo por agora! Vejo você na próxima vez!</p>
+		<p class="post-meta-description-size">Marc - <a href="https://twitter.com/marc_IRL">@Marc_IRL</a></p>
+		<hr color="red" style="margin-top:150px;margin-bottom:150px">
+		  
+		<iframe width="100.3%" height="400px" src="https://www.youtube-nocookie.com/embed/ptVorcjr9qU" frameborder="0"></iframe>
+		<a class="post-header-link" href="https://www.mojang.com/2016/12/pocket-edition-is-5-years-old-have-a-trailer-for-10/"><p class="post-title-size">POCKET EDITION IS 5 YEARS OLD! HAVE A TRAILER FOR 1.0!</p>
+		</a>
+		<p class="post-description-size">Postado em 1 de dez de 2016 por Marsh Davies</p>
+		<p class="post-meta-description-size">Que caminho percorremos! No início, o Pocket Edition era pouco mais que um experimento do codificador mega-cérebro de Mojang, Aron Nieminen. Era um esqueleto - apenas os recursos mínimos do Minecrafty em forma móvel, martelados em apenas três meses.
+
+		Como diz Aron: “Não era para ter multiplayer no começo, e a primeira versão interna tinha apenas um renderizador ASCII!”
+
+		  Desde então, tornou-se uma de nossas versões mais populares do Minecraft, com mais de 40 milhões de jogadores, que agora são capazes de apreciar os ricos recursos de redstone, se juntarem em Reinos e, em várias plataformas, competem em cavalitas, lamentam-se com bruxas. e - com a próxima atualização Ender - lute contra o chefe definitivo: The Ender Dragon.</p>
+		  <center>
+			<button id="read_more1" class="read_more_button">CONSULTE MAIS INFORMAÇÃO</button>
+		  </center>
+		  
+		  <hr color="red" style="margin-top:150px;margin-bottom:150px">
+			
+		<img src="https://media.mojang.com/blog-image/20c9ebc71dbeedaead872c6970b15f4dcce240d6/LIGHT%20THUMB.jpg" width="100.3%">
+		  
+		<a class="post-header-link" href="https://www.mojang.com/2016/11/share-your-real-life-minecraft-moments/"><p class="post-title-size">COMPARTILHE SEUS MOMENTOS DA VIDA REAL NO MINECRAFT!</p></a>
+		<p class="post-description-size">Postado em 23 de nov de 2016 por Owen Jones</p>
+		<p class="post-meta-description-size">Ei!</p>
+		<p class="post-meta-description-size">
+		  Minecraft pode ser um jogo antigo e engraçado. Ao longo dos anos, os artesãos descobriram muitos segredos e desenvolveram várias maneiras únicas de jogar. Torres de terra, porcos com selas, baús cheios de ensopado de cogumelos - com o tempo, essas coisas se tornaram quase ... normais.</p>
+		
+		<hr color="red" style="margin-top:150px;margin-bottom:150px">
+		<img src="https://media.mojang.com/blog-image/47222d67dd332c50f82b7d3fb1d43b3dfb0db949/MC_Cartoon_Textures_1024x576.png" width="100.3%">
+		<a class="post-header-link" href="https://www.mojang.com/2016/11/googly-eyes-goofy-grins-cartoon-texture-pack-now-on-pocket-win-10/"><p class="post-title-size">VÁ DE OLHOS ARREGALADOS! TEXTURAS DOS DESENHOS ANIMADOS NO POCKET / WIN 10!</p></a>
+		<p style="margin-top:200px">
+		<p class="post-description-size" style="margin-top:20px">Postado em 22 de nov de 2016 por Marsh Davies</p>
+		<p class="post-meta-description-size">Transforme seu mundo em um ícone com o mais recente pacote de texturas para chegar ao Pocket e Windows 10 Edition! Dê a seus porcos um fator derp mais alto - e resolução para inicializar. Remodelar o nariz dos moradores! Faça ovelhas parecer assustadas!</p>
+		<button id="read_more2" class="read_more_button">CONSULTE MAIS INFORMAÇÃO</button>
+		</p>
+		<hr color="red"style="margin-top:150px;margin-bottom:150px">
+		  
+		  <img src="https://media.mojang.com/blog-image/44ef470472958fd8b8a8770630ab01058e2ce092/Release1-10b_Shot1.png" width="100.3%">
+		  <a class="post-header-link" href="https://www.mojang.com/2016/11/on-consoles-this-holiday-elytra-end-cities-and-amped-up-terrain/">
+			<p class="post-title-size">EM CONSOLES NESTE FERIADO: ELYTRA, END CITIES E MAIS
+			</p></a>
+		<p class="post-description-size">Postado em 22 de nov de 2016 por Marsh Davies</p>
+		<p class="post-meta-description-size">Preparamos um presente sazonal bastante espetacular para o Console Edition. Como é tradicional, você terá que esperar até o final de dezembro para abrir o pacote completo, mas estamos felizes em lhe dar uma prévia hoje - o equivalente digital de permitir que você se esgueire escada abaixo e dê um pouco dos seus presentes embrulhados para presente agitação curiosa.</p>
+		<button id="read_more3" class="read_more_button">CONSULTE MAIS INFORMAÇÃO</button>
+		
+		<hr color="red" style="margin-top:150px;margin-bottom:150px">
+		<img src="https://media.mojang.com/blog-image/2661835f811a3305d13c28fd96900e371eed5a32/header.png" width="100.3%">
+		<a class="post-header-link" href="https://www.mojang.com/2016/11/bop-a-buddy-or-journey-through-jungles/">
+		  <p class="post-title-size">FAÇA UM AMIGO OU VIAJE PELAS SELVAS
+		  </p></a>
+		<p class="post-description-size">Postado em 18 de nov de 2016 por Marc Watson</p>
+		<p class="post-meta-description-size">Bem-vindos de volta, Minecrafters, a mais uma sexta-feira dos mapas dos PC Realms! Com base nos números da semana passada, muitos de vocês ficaram loucos por <a href="http://www.mojang.com/2016/11/be-a-bear-or-duel-a-dragon/">A Giant Quest</a> ! Nós nos divertimos pisoteando e encarando o dragão também.
+		  Vamos entrar nos mapas desta semana!</p>
+		<p class="image-title">Makers Punch pela equipe MineMakers</p>
+		  <img class="image-size" src="https://media.mojang.com/blog-image/ec514f148d569dc18c4f90f2d28bd854b104980c/2016-11-18_12.43.57.png">
+		<p class="post-meta-description-size">O Makers Punch foi uma escolha natural para inclusão nos Reinos. Foi um minijogo divertido e sem erros desde o início, e lembrou o favorito dos fãs, Knockback Madness, temperado com elementos de design do Makers Spleef do MineMakers Team. O objetivo de derrubar seus inimigos voando para fora da plataforma é simples, mas aprender os saltos e os itens lhe dará uma vantagem à medida que você e seus amigos jogam esse jogo repetidamente.</p>
+		<button id="read_more4" class="read_more_button">CONSULTE MAIS INFORMAÇÃO</button>
+		<hr color="red" style="margin-top:150px;margin-bottom:150px">
+		  
+		  <img src="https://media.mojang.com/blog-image/0ec003aaec2d7cbf083d25c2ecf3ea1af34e34c3/HOUR%20OF%20CODE.jpg" width="100.3%">
+		<a class="post-header-link" href="https://www.mojang.com/2016/11/got-time-to-spare-try-our-hour-of-code-2016-edition/">
+		  <p class="post-title-size">TEM TEMPO DE SOBRA? EXPERIMENTE A NOSSA HOUR OF CODE 2016 EDITION!</p>
+		</a>
+		<p style="margin-top:200px">
+		  <p class="post-description-size">Postado em 15 de nov de 2016 por Owen Hill</p>
+		<p class="post-meta-description-size">O que você poderia aprender em uma hora? Um pouco de matemática? Um pouco de inglês? Alguma "ciência"?
+		Nada de significado, basicamente. É por isso que você deve se deliciar com o fato de termos criado um segundo tutorial da Hour of Code, projetado para ensinar a você o básico da codificação em apenas 60 minutos. Introduzimos conceitos de design de jogos e ciência da computação em etapas fáceis de entender antes de fornecer informações sobre o comportamento da multidão e muito mais. Obviamente, ser um programador mestre como Jens leva mais de uma hora de treinamento, mas este é um ótimo lugar para começar.
+
+		  A hora do código do ano passado foi reproduzida mais de 31 milhões de vezes, tornando-o o mais popular na plataforma <a href="http://code.org/">Code.org</a> . Apesar disso, reconstruímos a coisa, por isso é ainda melhor do que no ano passado.
+
+		  Agora, os tutoriais de 2015 e 2016 estão disponíveis em <a href="http://code.org/minecraft">code.org/minecraft,</a> portanto, experimente. Ah, e se você ainda não está convencido, assista ao vídeo alegre abaixo.</p></p>
+		<iframe style="margin-left:40px" width="90%" height="400px" src="https://www.youtube-nocookie.com/embed/KJZxmI-45Dg" frameborder="0" allowfullscreen=""></iframe>
+		<p class="post-meta-description-size">Obrigado pela leitura, pessoal! Aproveite sua hora de código!</p>
+		<p></p>
+		<p class="post-meta-description-size">Owen - <a href="https://twitter.com/Bopogamel">@bopogamel</a></p>
+		<hr color="red" style="margin-top:150px;margin-bottom:150px">
+		<iframe frameborder="0"  width="100.3%" height="400px" src="https://www.youtube-nocookie.com/embed/PsDOKrQBwLI"></iframe>
+		<a class="post-header-link" href="https://www.mojang.com/2016/11/seek-out-the-exploration-update-111-on-pc-mac-now/"><p class="post-title-size">PROCURE A ATUALIZAÇÃO DE EXPLORAÇÃO: 1.11 NO PC / MAC AGORA!
+		  </p></a>
+		  <p style="margin-top:200px">
+		<p class="post-description-size">Postado em 14 de nov de 2016 por Marsh Davies</p>
+			<p class="post-meta-description-size">Caçadores de tesouros, alegrem-se! A atualização 1.11, também conhecida como Atualização de Exploração, agora fez uma jornada traiçoeira, do instantâneo ao lançamento completo. Nossos intrépidos desenvolvedores escalaram imensos fragmentos de código, se aventuraram em um território selvagem de pré-lançamento e lutaram contra bugs para oferecer ótimos brindes de jogos!
+
+			Se você ainda não tem o Minecraft para PC / Mac:<a href="https://my.minecraft.net/en-us/store/minecraft/"> você pode comprá-lo aqui</a> ! É divertido e recebe muitas atualizações gratuitas em massa como esta.</p></p>
+		<button id="read_more5" class="read_more_button">CONSULTE MAIS INFORMAÇÃO</button>
+		<hr color="red" style="margin-top:150px;margin-bottom:150px">
+		  <img width="100.3%" src="https://media.mojang.com/blog-image/0db18353862a2f2d4d029b757914935a930311a4/0_17_Update_Mojang_Blog_1024x576.png">
+		  <a class="post-header-link" href="https://www.mojang.com/2016/11/pocket-and-win-10-getting-10-the-ender-update-soon/">
+			<p class="post-title-size">POCKET E WIN 10 RECEBENDO 1.0 - A ATUALIZAÇÃO ENDER EM BREVE!
+			</p>
+		  </a>
+		  
+		<p class="post-description-size">Postado em 11 de nov de 2016 por Owen Jones</p>
+		<p class="post-meta-description-size">Chega um momento na vida de todas as edições do Minecraft em que elas evoluem de uma mera porcentagem para um número completo. Para Pocket Edition e Windows 10, esse tempo está quase chegando. 1.0 - A atualização do Ender está chegando! Nós não escolhemos esse número para os risos. Nossa próxima atualização está repleta de recursos, mas o mais significativo é provavelmente The End e seu habitante icônico - The Ender Dragon. Embora você possa continuar jogando depois de derrotar o animal incompreendido, para muitos, derrubá-lo é o objetivo final do Minecraft. Algo para mirar e alcançar após horas de jogo. Um jogo final tangível para jogadores de sobrevivência.</p>
+		<button id="read_more5" class="read_more_button">CONSULTE MAIS INFORMAÇÃO</button>
+		<hr color="red" style="margin-top:150px;margin-bottom:150px">
+		  
+		<button id="other_posts" class="other_post">POSTS MAIS ANTIGOS</button>
+		</face>
+	
+	</div> 
+	
+	<script type="text/javascript">
+	  var click = true;
+	  var showing = true;
+	  var rotate = false;
+	 var incasa = 0;
+	 var insobre = 0;
+	 var injogos = 0;
+	 var inconta = 0;
+	 var insocorro = 0;
+	 var insocorro2 = 100;
+    document.getElementById("b").onclick = function () {
+	
+  
+	//document.getElementById("b").style.backgroundColor = "#ffcc00";
+	if(showing==true){
+	showing=false;
+	if(click==true){
+	document.getElementById("b").style.backgroundColor = "dd0000";
+	document.getElementById("b").style.borderColor = "dd0000";
+	document.getElementById("b").style.width="102px";
+	document.getElementById("b").style.height="102px";
+	document.getElementById("b").style.fontSize="68px";
+	
+    
+	click = false;
+	
+	for(var i = 0; i<10000; i++){
+	setTimeout(function(){
+	if(document.getElementById("home").style.height=="100px"){
+	if(document.getElementById("sobre").style.height=="100px"){
+	if(document.getElementById("jogos").style.height=="100px"){
+	if(document.getElementById("conta").style.height=="100px"){
+	if(document.getElementById("socorro").style.height=="100px"){
+	showing=true;
+	}else{
+	document.getElementById("socorro").style.height=insocorro+++"px";
+	}
+	}else{
+	document.getElementById("conta").style.height=inconta+++"px";
+	}
+	}else{
+	document.getElementById("jogos").style.height=injogos+++"px";
+	}
+	}else{
+	document.getElementById("sobre").style.height=insobre+++"px";
+	}
+	}else{
+	document.getElementById("home").style.height=incasa+++"px";
+	document.getElementById("home").style.color="black";
+	  document.getElementById("sobre").style.color="black";
+	  document.getElementById("jogos").style.color="black";
+	  document.getElementById("conta").style.color="black";
+	  document.getElementById("socorro").style.color="black";
+	}
+	},400);
+  }
+	
+	
+	}else{
+	document.getElementById("b").style.backgroundColor = "";
+	document.getElementById("b").style.borderColor = "";
+	document.getElementById("b").style.width="100px";
+	document.getElementById("b").style.height="100px";
+	document.getElementById("b").style.fontSize="60px";
+	click = true;
+	
+	for(var i = 0; i<10000; i++){
+	setTimeout(function(){
+	if(document.getElementById("home").style.height=="0px"){
+	if(document.getElementById("sobre").style.height=="0px"){
+	if(document.getElementById("jogos").style.height=="0px"){
+	if(document.getElementById("conta").style.height=="0px"){
+	if(document.getElementById("socorro").style.height=="0px"){
+	  document.getElementById("socorro").style.color="transparent";
+	}else{
+	document.getElementById("socorro").style.height=insocorro--+"px";
+	}
+	  document.getElementById("conta").style.color="transparent";
+	}else{
+	document.getElementById("conta").style.height=inconta--+"px";
+	};
+	  document.getElementById("jogos").style.color="transparent";
+	}else{
+	document.getElementById("jogos").style.height=injogos--+"px";
+	}
+	  document.getElementById("sobre").style.color="transparent";
+	}else{
+	document.getElementById("sobre").style.height=insobre--+"px";
+	}
+	document.getElementById("home").style.color="transparent";
+	showing=true;
+	}else{
+	document.getElementById("home").style.height=incasa--+"px";
+	}
+	},400);}
+   
+	
+	}};};
+
+	document.getElementById("home").onclick() = function(){
+	document.getElementById("home").style.backgroundColor="ff0000";
+	window.location.replace("https://gabrielgomes900.github.io/index");
+	};
+	</script>
+	  <script type="text/javascript">
+		document.getElementById("home").onclick = function () {
+		document.getElementById("home").style.backgroundColor = "dddddd";
+		document.getElementById("sobre").style.backgroundColor = "";
+		document.getElementById("jogos").style.backgroundColor = "";
+		document.getElementById("conta").style.backgroundColor = "";
+		document.getElementById("socorro").style.backgroundColor = "";
+		window.location.replace("https://gabrielgomes900.github.io/index");
+		};
+	    document.getElementById("sobre").onclick = function () {
+		document.getElementById("sobre").style.backgroundColor = "dddddd";
+		document.getElementById("home").style.backgroundColor = "";
+		document.getElementById("jogos").style.backgroundColor = "";
+		document.getElementById("conta").style.backgroundColor = "";
+		document.getElementById("socorro").style.backgroundColor = "";
+		window.location.replace("https://gabrielgomes900.github.io/sobre");
+		};
+		document.getElementById("jogos").onclick = function () {
+		document.getElementById("jogos").style.backgroundColor = "dddddd";
+		document.getElementById("home").style.backgroundColor = "";
+		document.getElementById("sobre").style.backgroundColor = "";
+		document.getElementById("conta").style.backgroundColor = "";
+		document.getElementById("socorro").style.backgroundColor = "";
+		window.location.replace("https://gabrielgomes900.github.io/jogos");
+		};
+		document.getElementById("conta").onclick = function () {
+		document.getElementById("conta").style.backgroundColor = "dddddd";
+		document.getElementById("home").style.backgroundColor = "";
+		document.getElementById("sobre").style.backgroundColor = "";
+		document.getElementById("jogos").style.backgroundColor = "";
+		document.getElementById("socorro").style.backgroundColor = "";
+		window.location.replace("https://gabrielgomes900.github.io/conta");
+		};
+		document.getElementById("socorro").onclick = function () {
+		document.getElementById("socorro").style.backgroundColor = "dddddd";
+		document.getElementById("home").style.backgroundColor = "";
+		document.getElementById("sobre").style.backgroundColor = "";
+		document.getElementById("jogos").style.backgroundColor = "";
+		document.getElementById("conta").style.backgroundColor = "";
+		window.location.replace("https://gabrielgomes900.github.io/socorro");
+		};
+		document.getElementById("read_more1").onclick = function(){
+		document.getElementById("read_more1").style.backgroundColor = "ff0000";
+		document.getElementById("read_more1").style.color = "ffffff";
+		document.getElementById("read_more1").style.borderColor = "ffffff";
+		};
+		</script>
+  </body>
+
+
+</html>
